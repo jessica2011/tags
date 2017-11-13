@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(178, 192, 235);
+}
+
+.tab {
+    background-color: rgb(75, 133, 191);
+    padding: 15px 40px;
+    border-left: 1px solid rgb(65, 115, 165);
+    border-bottom: 1px solid white;
+    border-right: 1px solid rgb(65, 115, 165);
+    border-top: 1px solid rgb(65, 115, 165);
+    color: white;
+}
+
+section {
+    width: 50%;
+    margin: 100px 25%;
+}
+
+div {
+    padding: 20px;
+    text-align: justify;
+    background-color: white;
+    border: 1px solid rgb(65, 115, 165);
+}
+
+button:focus {
+    outline: none;
+}
+
+.tab:focus {
+    background: white;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+    font-size: 60px;
+    margin: 50px
+}
